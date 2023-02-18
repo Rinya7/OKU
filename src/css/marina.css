@@ -1,0 +1,40 @@
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.week {
+  width: 200px;
+  background-color: azure;
+  text-align: center;
+}
+
+.title {
+  color: black;
+  font-size: 24px;
+  background-color: #ffaebc;
+}
+
+.weekdays {
+  margin-bottom: 10px;
+}
+
+.week .link-weekday {
+  display: inline-block;
+  width: 100%;
+  color: black;
+  font-size: 24px;
+  background-color: #a0e7e5;
+  text-align: center;
+}
+
+.week .link-weekend {
+  display: inline-block;
+  width: 100%;
+  color: black;
+  font-size: 24px;
+  background-color: #fbe7c6;
+  text-align: center;
+}
